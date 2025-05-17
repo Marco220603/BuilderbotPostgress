@@ -1,0 +1,29 @@
+{
+  "name": "base-bailey-json",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "type": "module",
+  "scripts": {
+    "lint": "eslint . --no-ignore",
+    "dev": "npm run lint && nodemon ./src/app.js",
+    "start": "node ./src/app.js"
+  },
+  "keywords": [],
+  "dependencies": {
+    "@builderbot/bot": "1.2.7",
+    "@builderbot/database-postgres": "1.2.7",
+    "@builderbot/provider-baileys": "1.2.7",
+    "fs": "^0.0.1-security",
+    "ngrok": "^5.0.0-beta.2",
+    "puppeteer": "^24.8.2",
+    "sharp": "^0.34.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-plugin-builderbot": "latest",
+    "nodemon": "^3.1.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
